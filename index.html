@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="js/scripts.js"></script>
+
+  <title>Movie Ticket</title>
+</head>
+<body>
+  <div class="container">
+    <div class="jumbotron">
+      <h1>Movie Tickets</h1>
+    </div>
+    <form id="input">
+    <div class="form-group">
+      <label>Titles:</label>
+      <select class="form-control" id="title" required>
+        <option></option>
+        <option value="movie1">The Shining</option>
+        <option value="new-release">John Wick 3</option>
+        <option value="movie3">Vertigo</option>
+      </select>
+    </div>
+    <div class="form-group">
+      <label>Age:</label>
+      <select class="form-control" id="age" required>
+        <option></option>
+        <option value="discount">Child</option>
+        <option value="regular-price">Adult</option>
+        <option value="discount">Senior</option>
+      </select>
+    </div>
+    <div class="form-group">
+      <label>Times:</label>
+      <select class="form-control" id="time" required>
+        <option></option>
+        <option value="matinee">12:00pm</option>
+        <option value="matinee">4:00pm</option>
+        <option value="night">7:00pm</option>
+      </select>
+    </div>
+    <button type="submit" class="btn btn-info">Buy Ticket</button>
+    </form>
+
+    <div id="show-price">
+      
+    </div>
+
+
+
+  </div>
+</body>
+</html>
