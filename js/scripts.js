@@ -38,7 +38,8 @@ $(document).ready(function() {
       price += 5
     }
 
-    $("#show-price").show(price);
+    $("#show-price").text("Your ticket price is $" + price + ".");
+
     // console.log(price);
   });
 });
