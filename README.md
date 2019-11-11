@@ -1,34 +1,33 @@
-# INSERT PROJECT TITLE
+# Movie Ticket
 
-## Created by PARTNER NAME and Lara Bjork on DATE
+## Created by Diego Rojas in July 2019
 
 ### Project Description
-This project was completed as part of the Epidocus in-class curriculum. The task description was as follows:
+This program uses a from field to allow the user to makes three selections that affect the final price of a movie ticket. The price will be displayed to the user, once the form has been submitted.
 
-As stated in the prompt from Epicodus, the project objectives are to:
-
-INSERT TEXT FROM CURRICULUM HERE.
-
-ADD SPECS (behavior/input/output)
-
+### Specification
+|  Behavior this program should handle: | Input:  | Output:  |  
+|---|---|---|
+| dropdown options on movie title menu  | click  |  display three options |   
+|  dropdown options on age menu | click   | display three options  |  
+|  dropdown options on movie time menu | click  | display three options  |   
+|  once submit button has been entered JavaScript will calculate price of movie ticket  | "new-release", "senior", "matinee"  | price = $ 12 |  
 
 ### Technologies Used
-HTML, CSS, Bootstrap 3.3.7, JavaScript, and jQuery v3.4.1 (uncompressed development version).
-Project was written using Google Chrome; no other browsers were tested for compatibility.
+* HTML
+* CSS
+* Bootstrap 4.1.1
+* JavaScript
+* jQuery v3.3.1
 
 ### Project Setup instructions
-There shouldn't be any special setup required. If something doesn't display correctly or goes wrong somehow, please contact us at <INSERT PARTNER EMAIL> and <lara.m.bjork@gmail.com> and we will do our best to troubleshoot for you.
+* clone from GitHub
+* open in browser
 
 ### Known Issues
-* KEEP THIS IF IT APPLIES: Although there is responsive sizing in place, this project is best viewed on standard desktop. It was not tested on a large desktop, table, or phone.
-
-
-
-### Where to Find This Project
-USE THIS SECTION ONLY IF GH PAGE CREATED
-
+* There are no known bugs.
 
 ### License
 This software is licensed under the MIT license.
 
-_Copyright (c) 2019 ** PARTNER NAME and Lara Bjork **_
+_Copyright (c) 2019 ** Diego Rojas **_
